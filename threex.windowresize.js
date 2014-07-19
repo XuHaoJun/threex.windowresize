@@ -79,7 +79,7 @@ THREEx.WindowResize	= function(renderer, camera, opts){
 		camera.aspect  = width / height
 		camera.updateProjectionMatrix()
 
-		if(opts.done) opts.done()
+		if(opts.after) opts.after()
 	}
 
 	// bind the resize event
