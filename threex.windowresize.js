@@ -15,7 +15,11 @@
 //
 
 /** @namespace */
-var THREEx	= THREEx || {}
+var THREE = window.THREE;
+if (typeof require == "function" && typeof THREE == "undefined") {
+  THREE = require("three");
+}
+var THREEx		= THREEx 	|| module.exports	|| {};
 
 /**
  * Update renderer and camera when the window is resized
