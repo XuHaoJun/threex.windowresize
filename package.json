@@ -3,7 +3,7 @@
   "title": "threex.windowresize",
   "description": "threex.windowresize is a three.js extension to help you handle window resize.",
   "version": "0.0.1",
-  "main": "threex.domevent.js",
+  "main": "threex.windowresize.js",
   "homepage": "https://github.com/jeromeetienne/threex.windowresize",
   "author": {
     "name": "jerome etienne",
